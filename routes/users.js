@@ -8,7 +8,7 @@ const router = express.Router();
   Using for logging the request for /users routes
 */
 router.use("/", (req, res, next) => {
-  console.log('+++ Request +++', req);
+  console.log('+++ Request +++');
   next();
 });
 
